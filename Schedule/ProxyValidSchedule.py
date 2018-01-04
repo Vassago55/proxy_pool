@@ -34,7 +34,7 @@ class ProxyValidSchedule(object):
             thread_list.append(ProxyCheck())
 
         for thread in thread_list:
-            thread.daemon = True
+            thread.daemon = True  # quit with main thread
             thread.start()
 
         for thread in thread_list:
