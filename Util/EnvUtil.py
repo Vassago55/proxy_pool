@@ -14,4 +14,4 @@ __author__ = 'J_hao'
 
 import sys
 
-PY3 = sys.version_info >= (3,)  # 获取版本
+PY3 = sys.version_info >= (3,)
